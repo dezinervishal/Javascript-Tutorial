@@ -5,9 +5,7 @@ const fruit = ['Apple', 'Banana', 'Oriange', 'Mango', 'Papaya'];
 const mixed = [22, 'Hello', true, undefined, null, {a:1,b:2}, new Date()];
 
 // console.log(mixed);
-
 let val;
-
 
 // Get array length
 val = numbers.length;
@@ -62,8 +60,6 @@ function under50(num) {
 }
 
 val = numbers.find(under50);
-
-
 
 console.log(numbers);
 console.log(val);
