@@ -5,7 +5,9 @@
 const newHeading = document.createElement('h2');
 
 // Add id 
-newHeading.id = 'title-task';
+newHeading.id = 'task-title';
+
+console.log(newHeading);
 
 // New text Node
 newHeading.appendChild(document.createTextNode('Task List'));
@@ -41,7 +43,7 @@ val = link.className;
 val = link.classList;
 val = link.classList[0];
 link.classList.add('test');
-//link.classList.remove('test');
+link.classList.remove('test');
 val = link;
 
 // Attribute
