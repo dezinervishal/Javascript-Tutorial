@@ -35,5 +35,5 @@ function runEvent(e) {
     console.log(`Event Type: ${e.type}`);
     heading.textContent = `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
 
-    document.body.style.backgroundcolor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
+    document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 40)`;
 }
