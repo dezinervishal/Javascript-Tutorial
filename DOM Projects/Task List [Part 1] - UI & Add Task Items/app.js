@@ -17,7 +17,7 @@ function loadEventListners() {
 // Add Task
 function addTask(e) {
     if(taskInput.value === ''){
-        alert('Add a task');
+        //alert('Add a task');
     }
 
     // create li element
@@ -36,12 +36,12 @@ function addTask(e) {
     li.appendChild(link);
 
     // Append new li to the ul
-    //taskList.appendChild(li);
+    taskList.appendChild(li);
 
     // Clear Input
-    //taskInput.value = '';
+    taskInput.value = '';
 
-    Console.log(li);
+    console.log(li);
 
     e.preventDefault();
 }
